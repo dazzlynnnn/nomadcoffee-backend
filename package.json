@@ -1,0 +1,36 @@
+{
+  "name": "nomadcoffee",
+  "description": "노마드 코더 인스타 클론 챌린지 과제 Repository",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server",
+    "migrate": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dazzlynnnn/nomadcoffee-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dazzlynnnn/nomadcoffee-backend/issues"
+  },
+  "homepage": "https://github.com/dazzlynnnn/nomadcoffee-backend#readme",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.5.3",
+    "@graphql-tools/merge": "^8.2.13",
+    "@graphql-tools/schema": "^8.3.13",
+    "@prisma/client": "^3.14.0",
+    "apollo-server": "^2.25.2",
+    "dotenv": "^16.0.1",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.0",
+    "nodemon": "^2.0.16",
+    "prisma": "^3.14.0"
+  }
+}
